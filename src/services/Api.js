@@ -3,7 +3,7 @@ import { getUserData } from "./Storage";
 
 axios.defaults.baseURL = "https://identitytoolkit.googleapis.com/v1";
 
-const API_KEY = "AIzaSyBMCiJLULkEjzguK-WReAuyWIof0uT7eIE";
+const API_KEY = "[API_KEY];
 
 const REGISTER_URL = `/accounts:signUp?key=${API_KEY}`;
 const LOGIN_URL = `/accounts:signInWithPassword?key=${API_KEY}`;
